@@ -13,11 +13,41 @@
             </div>
         </header>
         <div class="generator">
-            <div class = "result_window"></div>
+            <div class = "result_window">
+                <output name="result"> </output>
+            </div>
             <button type = "button">Generate!</button>
             <button type = "copy_button">Copy</button>
-            
         </div>
+        <fieldset class="length_options">
+            <legend>Select lenth of passowrd:</legend>
+
+            <div>
+                <input type="radio" id = "8_char" name = "length" value = "8_char">
+                <label for = "8_char">8 characters</label>
+            </div>
+
+            <div>
+                <input type="radio" id = "12_char" name = "length" value = "12_char">
+                <label for = "12char">12 characters</label>
+            </div>
+
+            <div>
+                <input type="radio" id = "16_char" name = "length" value = "16_char">
+                <label for = "16char">16 characters</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="special_char_option">
+            <legend>Select if you want special characters to be included:</legend>
+
+            <div>
+                <input type="checkbox" id = "special_char" value = "special_char">
+                <label for = "special_char">Special characters</label>
+            </div>
+
+        </fieldset>
 
         <footer>
 
